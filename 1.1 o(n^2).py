@@ -8,16 +8,17 @@ for i in range(len(a)-1):
             if a[i] == b[j]:
                 print("True", i, j)
                 print(a[i], b[j])
-            else:
-                j = j+1
-        else:
-            i = i+1
+            #else:
+             #   j = j+1
+        #else:
+         #   i = i+1
 ###--------------------------------------------------###
 i, j = 0, 0
 for i in range(len(a)-2):
-    for j = i+1 in range(len(a)-2):
+    j=i+1
+    for j in range(len(b)-1):
         if a[i] == a[j]:
             print("True")
-        else:
+        #else:
             
     
